@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/day_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_stacked_max_height"
+        android:text="March 1, 2015"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:elegantTextHeight="false"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <ExpandableListView
+        android:id="@+id/routine_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ExpandableListView>
+</LinearLayout>
